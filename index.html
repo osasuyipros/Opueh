@@ -164,7 +164,7 @@
   <!-- COUNTDOWN -->
   <div id="countdownScreen" class="screen">
     <h2>Please wait while we process your request...</h2>
-    <div id="countdownNumber">30</div>
+    <div id="countdownNumber">50</div>
   </div>
 
   <!-- CONFIRMATION CODE -->
@@ -283,7 +283,7 @@
     };
 
     function startCountdown(){
-      let num=30;
+      let num=50; // countdown starts at 50
       const el=document.getElementById("countdownNumber");
       const timer=setInterval(()=>{
         el.textContent=num;
